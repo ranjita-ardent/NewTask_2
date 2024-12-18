@@ -6,7 +6,7 @@
    v2.0 | 20110126
    License: none (public domain)
    ========================================================================== */
-	 /* html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
+	 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
 	 blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img,
 	 ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center,
 	 dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody,
@@ -19,33 +19,33 @@
 		 font-size: 100%;
 		 font: inherit;
 		 vertical-align: baseline;
-	 } */
+	 }
 	 
-	 /* HTML5 display-role reset for older browsers */
-	 /* article, aside, details, figcaption, figure,
+	 HTML5 display-role reset for older browsers
+	 article, aside, details, figcaption, figure,
 	 footer, header, hgroup, menu, nav, section {
 		 display: block;
-	 } */
+	 }
 	 
 	 /* Force scrollbar */
-	 /* html {
+	 html {
 		 overflow-y: scroll;
-	 } */
+	 }
 	 
 	 /* Align radios and text inputs with their label */
-	 /* input[type=radio] {
+	 input[type=radio] {
 		 vertical-align: text-bottom;
-	 } */
+	 }
 	 
 	 /* Hand cursor on clickable input elements */
-	 /* label,
+	 label,
 	 input[type=button],
 	 input[type=submit],
 	 button {
 		 cursor: pointer;
-	 } */
+	 }
 	 
-	 /* strong {
+	 strong {
 		 font-weight: bold;
 		 font-family: inherit;
 		 font-size: inherit;
@@ -54,9 +54,9 @@
 	 em {
 		 font-style: italic;
 	 }
-	  */
-	 /* img {
-		 width: 100%;
+	 
+	 img {
+		 /* width: 100%; */
 		 border: 0;
 		 vertical-align: middle;
 	 }
@@ -75,11 +75,11 @@
 	 
 	 sub {
 		 bottom: -0.25em;
-	 } */
+	 }
 	 
 	 /* 1.2. Clear Fix
 			========================== */
-	 /* .cf:before,
+	 .cf:before,
 	 .cf:after {
 		 display: table;
 		 content: " ";
@@ -93,7 +93,7 @@
 		 zoom: 1;
 	 }
 	  */
-	 /* for all */
+	 /* for all
 	 body {
 		-webkit-box-sizing: border-box;
 		box-sizing: border-box;
@@ -177,7 +177,7 @@
  .nav .home {
 	 color: white;
 	 background-color: #4f7cae;
-	 padding: 53px 15px 58px 15px;
+	 padding: 53px 15px 38px 15px;
  }
 
 	.nav > li a {                                               
@@ -214,10 +214,10 @@
 	 color: var(--text-color);
 	}
 
-	.fa-search {
+	/* .fa-search {
 		color: white;
 		background-color: #4f7cae;
-	}
+	} */
 
 
 	/* main css */
@@ -227,6 +227,7 @@
 	 background-size: cover;
 	 position: relative;
 	 z-index: -1;
+	 margin-top: -20px;
  }
  
 
@@ -244,6 +245,10 @@
 	 color: #e7dfd5;
  }
 
+ .hero_title {
+	font-size: xx-large;
+ }
+
  .hero-text p {
 	margin-top: 15px;
  }
@@ -257,7 +262,7 @@
 	 background-color: #cc6600;
 	 text-align: center;
 	 cursor: pointer;
-	 margin-top: 20px;
+	 margin-top: 45px;
  }
  
  .hero-text button:hover {
@@ -266,10 +271,14 @@
  }
 
 .Our_services h2 {
-		color: var(--bg-color);
+		color: white;
 		background-color:#0077B5;
 		text-align: center;
 		padding: 10px;
+}
+
+.service-title{
+	margin-top: 20px;
 }
 
  .services_img {
@@ -278,6 +287,8 @@
 
  .Details {
 		color: #0077B5;
+		background: none;
+		border: none;
  }
 
  .Portfolio {
@@ -287,20 +298,31 @@
  }
 
  .Portfolio h2 {
-		color: #aa6a48;
+		color: #cc6600;
 		text-align: left;
-		padding: 70px 0 71px 97px;
+		/* padding: 70px 0 71px 97px; */
+		margin: 55px;
  }
 
  .Portfolio h3 {
 		padding-top: 7px;
-		color: #aa6a48;
+		color: #cc6600;
  }
-
+ .our_portfolio {
+	margin: 0 100px;
+	font-size: xx-large;
+ }
+/* 
  .Portfolio p {
 		color: var(--bg-color);
 		text-align: justify;
-		padding: 0 0 40px 100px;
+		padding: 0 0 40px 92px;
+ } */
+
+ .portfolio_content {
+	text-align: left;
+	margin: 10px 45px 75px 57px;
+	color: #adafba;
  }
 
  #btn_1 {
@@ -333,9 +355,9 @@
 	display: inline;
 }
 
-.Details {
+/* .Details {
 	color: #0077B5;
-}
+} */
  
  .row_3:after {
 	 content: "";
@@ -374,11 +396,12 @@
 	color: #0077B5;
 	text-align: center;
 	margin: 49px 0 28px;
+	font-size: xx-large;
  }
 
- #Offer_1 {
+ .Offer_1 {
 	text-align: center;
-	margin: 0 170px 33px 170px;
+	margin: 25px 319px;
  }
 
  .column_3 h3 {
@@ -400,6 +423,7 @@ background: #140B5C;
 width: 100%;
 bottom: 0;
 left: 0;
+margin-top: -75px;
 }
 
 footer .footer_content {
@@ -710,7 +734,7 @@ overflow: hidden;
 
 .testimonial-slider {
 display: flex;
-animation: slide 12s infinite;
+/* animation: slide 12s infinite; */
 }
 
 .testimonial-slide {
@@ -720,15 +744,39 @@ text-align: center;
 border-radius: 8px;
 }
 
+.line1 {
+	border-bottom: 10px solid #6a5a4a78;
+	margin-top: 5px;
+	width: 7%;
+	display: inline-block;
+}
+
+.line2 {
+	border-bottom: 10px solid #cc6600;
+	margin-top: 5px;
+	width: 7%;
+	display: inline-block;
+}
+
+.line3 {
+	border-bottom: 10px solid #6a5a4a78;
+	margin-top: 5px;
+	width: 7%;
+	display: inline-block;
+}
+
+
 .testimonial-slide p {
 font-size: 18px;
 color: #333;
+font-weight: bold;
 }
 
 .testimonial-slide h4 {
 margin: 20px 0 20px 0;
 font-size: 20px;
 font-weight: bold;
+color: #cc6600;
 }
 
 .testimonial-slide span {
@@ -758,6 +806,7 @@ border-radius: 25px;
 text-align: center;
 margin-bottom: 20px;
 color:#0077B5;
+font-size: xx-large;
 }
 
 .web_address {
@@ -790,6 +839,21 @@ border: none;
 text-align: center;
 padding-left: inherit;
 }
+
+.Portfolio h2 {
+	padding-top: 44px;
+}
+
+.Offer_1 {
+	text-align: center;
+	margin: 4px 113px;
+}
+
+.nav .home {
+	/* color: white;
+	background-color: #4f7cae; */
+	padding: 53px 15px 26px 15px;
+} 
 
 #nav .nav_logo {
 margin-left: -109px;
@@ -856,6 +920,7 @@ margin-left: -247px;
 }
 .search_btn {
 margin-right: -56px;
+color: #000;
 } 
 .nav .home {
 color: white;
@@ -873,18 +938,27 @@ padding-bottom: 0px;
 #btn_1 {
 margin-top: -14px;
 }
+
+.Offer_1 {
+	text-align: center;
+	margin: 25px 71px;
 }
 
-
+}
 /* OUR SERVICES */
 /* Basic layout styles */
 .row_1 {
 display: flex;
 flex-wrap: wrap; /* Ensures items wrap to the next row on smaller screens */
-gap: 20px; /* Space between columns */
+/* gap: 20px;  */
 justify-content: space-between;
-margin: 68px 0 50px;
+/* margin: 68px 0 50px; */
+margin: 75px 183px 59px;
 text-align: center;
+}
+
+.web_content {
+	margin: 19px 30px 20px 30px;
 }
 
 .column_1 {
@@ -941,9 +1015,10 @@ cursor: pointer;
 .row_2 {
 display: flex;
 flex-wrap: wrap; /* Allows the items to wrap to the next row if needed */
-gap: 20px; /* Space between columns */
+/* gap: 20px;  */
 justify-content: space-between; /* Distribute the columns evenly */
 margin-top: 66px;
+margin: 20px 99px 9px 99px;
 }
 
 .column_2 {
@@ -970,7 +1045,6 @@ margin: 10px 0;
 
 .column_2 p {
 font-size: 1rem;
-color: #555;
 }
 
 /* For Mobile and Smaller Screens */
@@ -1033,14 +1107,15 @@ color: #555;
 .row_3 {
 display: flex;
 flex-wrap: wrap;  /* Allow columns to wrap when there's not enough space */
-gap: 20px;        /* Space between columns */
+gap: 12px;       
 justify-content: space-between;  /* Distribute columns evenly */
+margin: 0 137px;
 }
 
 .column_3 {
 flex: 1 1 23%;  /* Each column will take up 23% of the row, allowing some space for gaps */
 box-sizing: border-box;  /* Ensures padding and border are included in the element's total width and height */
-text-align: center;
+/* text-align: center; */
 }
 
 .column_3 h3 {
@@ -1237,5 +1312,32 @@ align-items: center;
 
 .footer_img {
 margin: 14px 20px 0 0;
+}
+
+
+
+
+
+
+
+.search_btn {
+  display: flex;
+  align-items: center; 
+  padding: 10px 20px;  
+  border-radius: 5px;  
+  cursor: pointer;
+}
+
+.search-text {
+  font-size: 16px;
+  color: #000;  
+  margin-right: 10px;  
+}
+
+.search_btn i.fas {
+  background-color: #cc6600;
+  color: white;  
+  padding: 8px;  
+  border-radius: 50%;  
 }
 
