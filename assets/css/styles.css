@@ -1534,4 +1534,8 @@ margin: -13px 9px 0 0;
 	.web_content {
     margin: 12px 62px 20px 51px;
     text-align: end;
-	}}
+	}
+	.portfolio_content{
+float: inline-end;
+	}
+}
