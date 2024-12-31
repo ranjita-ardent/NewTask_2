@@ -394,7 +394,7 @@
  .column_3 {
 	 float: left;
 	 width: 25%;
-	 padding: 10px;
+	 padding: 60px;
 	 line-height: 14px;
  }
 
@@ -1275,7 +1275,7 @@ justify-content: space-between;  /* Distribute columns evenly */
 /* margin: 0 137px; */
 /* margin: 0 -26px; */
 /* margin: 0 86px; */
-margin: 0 86px 20px 86px;
+margin: 0 125px 20px 125px;
 }
 
 .column_3 {
