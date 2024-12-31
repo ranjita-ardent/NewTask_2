@@ -834,6 +834,7 @@ width: 100%;
 }
 .our_portfolio {
 display: flex;
+margin: 50px 100px;
 }
 }
 
