@@ -1540,3 +1540,7 @@ float: inline-end;
 margin: 0 40px 0 75px;
 	}
 }
+@media only screen and (min-width: 2560px){
+	#nav .nav_logo {
+		margin-left: 26%;
+}}
