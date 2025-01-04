@@ -495,7 +495,7 @@ margin: auto;
 /* padding: 30px 40px 40px 40px; */
 padding: 30px 89px 40px 89px;
 }
-}
+
 
 footer .footer_content .top {
 display: flex;
@@ -1179,7 +1179,8 @@ flex-wrap: wrap; /* Allows the items to wrap to the next row if needed */
 justify-content: space-between; /* Distribute the columns evenly */
 /* margin-top: 66px; */
 /* margin: -22x 99px 9px 99px; */
-margin: -56px 50px 0 50px;
+/* margin: -56px 50px 0 50px; */
+margin: 0px 50px 0 100px;
 padding-bottom: 55px;
 }
 
@@ -1544,3 +1545,89 @@ margin: 0 40px 0 75px;
 	#nav .nav_logo {
 		margin-left: 26%;
 }}
+
+@media only screen and (min-width: 1800px){
+.row_2 {
+  display: flex;
+  flex-wrap: wrap; /* Allows the items to wrap to the next row if needed */
+  /* gap: 20px;  */
+  justify-content: space-between; /* Distribute the columns evenly */
+  /* margin-top: 66px; */
+  /* margin: -22x 99px 9px 99px; */
+  /* margin: -56px 50px 0 50px; */
+  margin: 0px 50px 0 500px;
+  padding-bottom: 55px;
+  }
+  
+  .column_2 h3 {
+    /* font-size: 1.5rem; */
+    margin: 10px 0;
+    float: inline-start;
+    margin: 0 286px 0 0px;
+}
+
+.portfolio_content {
+  margin: 0 146px 0 0;
+  float: inline-start;
+
+}
+}
+
+/* body {
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+} */
+
+.container5 {
+    display: flex;
+    gap: 20px; 
+}
+
+.box5 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+    padding: 20px;
+    width: 150px; 
+    height: 150px; 
+    border: 7px solid white; 
+    background-color: #cfcaca; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.box5 i {
+    /* font-size: 30px;  */
+    color: white; 
+    margin-bottom: 10px; 
+}
+
+.box5 span {
+    font-size: 16px; 
+    color: #333; 
+    text-align: center;
+}
+
+.portfoliobox-icon {
+display: flex;
+flex-wrap: wrap;
+border: 1px solid white;
+padding: 0px 5px;
+border-radius: 4px;
+}
+
+.portfolio-details {
+color: white;
+padding: 4px 7px;
+margin: 4px;
+font-size: 12px;
+font-family: "PT Sans Caption", serif;
+font-weight: 600;
+font-style: normal;
+}
